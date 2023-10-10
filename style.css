@@ -1,0 +1,11 @@
+#art {height: 250px;
+  width: 250px; float:top ;; z-index: -1;}
+
+.form {
+  display: grid; grid-template-areas: "Name" "Email" "Submit";
+  border: solid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(2, 1fr);
+gap: 1px; padding: 5px;}
+
+.form1 {grid-row: 2;}
+@media {max-width: 1050;}
+
