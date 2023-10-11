@@ -6,7 +6,9 @@
   border: solid; grid-template-columns: repeat(3, 0fr); grid-template-rows: repeat(3, 0fr);
 gap: 1px; padding: 5px;}
 
-
+@media screen {
+  
+}
 
 
 
